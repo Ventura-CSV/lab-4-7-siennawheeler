@@ -1,5 +1,5 @@
 def main():
-    numbers = []
+    numbers = [0]
     """
     ########################################
     Code Your Program here
@@ -13,6 +13,7 @@ def main():
             break
         x = x + 1
         numbers.append(temp)
+        
     ########################################
     # Do not delete the return statement
     ########################################
@@ -22,3 +23,4 @@ def main():
 
 if __name__ == '__main__':
     main()
+    
